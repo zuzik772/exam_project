@@ -61,6 +61,7 @@ h2 {
   grid-column: 1/-1;
   /* transform: rotate(-3deg); */
   position: relative;
+  padding: 1rem;
 }
 
 p {
@@ -357,16 +358,9 @@ header {
 
 .box-b .grid-col-3 {
   border-radius: 5px;
-  padding: 3vw 0 5vw 0;
   background-color: var(--color-primary);
 }
 
-.box-b .grid-col-3 {
-  border-radius: 5px;
-  /* box-shadow: 0 5px 25px rgb(0 0 0 / 15%); */
-  padding: 5vw 0;
-  background-color: var(--color-primary);
-}
 .title {
   text-align: center;
   margin-top: 2rem;
