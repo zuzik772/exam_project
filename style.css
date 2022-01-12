@@ -235,6 +235,7 @@ header {
   position: relative;
   top: 0;
   left: 0;
+  place-self: center;
 }
 
 .box-a img,
@@ -1164,7 +1165,6 @@ textarea:focus ~ span,
 
   .box-images {
     max-width: 200px;
-    place-self: center;
   }
 
   .box-b .grid-col-2b {
